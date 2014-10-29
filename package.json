@@ -1,13 +1,24 @@
 {
   "name": "coffee",
   "version": "1.0.0",
-  "description": "CoffeeScript Fizzbuzz",
+  "description": "fizzbuzz in CoffeeScript",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "cake test"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MadameSardine/coffee.git"
+  },
+  "author": "Alex and Sandrine",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadameSardine/coffee/issues"
+  },
+  "homepage": "https://github.com/MadameSardine/coffee",
   "devDependencies": {
     "chai": "^1.9.2",
     "coffee-script": "^1.8.0",
